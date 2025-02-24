@@ -1,0 +1,93 @@
+html,
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  background-color: hsl(30, 38%, 92%);
+}
+
+#buttonText,
+h1 {
+  margin: 0;
+  font-family: "Fraunces";
+  line-height: 1em;
+  font-weight: 700;
+}
+
+h2,
+p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+#card {
+  background-color: hsl(0, 0%, 100%);
+  width: 90%;
+  border-radius: 16px;
+}
+
+#main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#inner {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 16px;
+}
+
+h2 {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+  color: hsl(212, 21%, 14%);
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}
+
+#price-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#price {
+  color: hsl(158, 36%, 37%);
+}
+
+#full-price {
+  text-decoration: line-through;
+}
+
+#button-container {
+  width: 100%;
+  height: 42px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#button-text {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9em;
+}
+
+#button-container:hover {
+  background-color: hsl(158, 42%, 18%);
+}
