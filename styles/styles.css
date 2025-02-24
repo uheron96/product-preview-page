@@ -2,10 +2,11 @@ html,
 body {
   display: grid;
   place-items: center;
-  height: 100vh;
-  margin: 0;
   width: 100%;
+  height: 100vh;
   background-color: hsl(30, 38%, 92%);
+  margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 #buttonText,
@@ -20,7 +21,7 @@ h2,
 p {
   margin: 0;
   font-family: "Montserrat";
-  font-size: 0.9rem;
+  font-size: clamp(0.5rem, 0.5rem + 1vw, 1rem);
   font-weight: 500;
 }
 
@@ -50,7 +51,7 @@ h2 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: clamp(1rem, 1rem + 1vw, 1.7rem);
   color: hsl(212, 21%, 14%);
 }
 
@@ -85,7 +86,7 @@ p {
 
 #button-text {
   color: hsl(0, 0%, 100%);
-  font-size: 0.9em;
+  font-size: clamp(0.4rem, 0.4rem + 1vw, 1rem);
 }
 
 #button-container:hover {

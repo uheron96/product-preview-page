@@ -1,16 +1,40 @@
-/* @media (min-width: 501px) {
+@media only screen and (min-width: 48em) {
+  html,
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+  }
+
   #card {
     display: flex;
-    flex-direction: row;
     background-color: hsl(0, 0%, 100%);
-    width: 30%;
+    width: 32em;
     border-radius: 16px;
+    flex-direction: row;
+    overflow: hidden;
   }
 
   #main-image {
-    width: auto;
+    width: 100%;
     height: 100%;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px 0px 0px 16px;
+    object-fit: cover;
+  }
+
+  #image-container {
+    width: 50%;
+  }
+
+  #inner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 16px;
   }
 }
- */
